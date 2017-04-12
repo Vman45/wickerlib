@@ -1222,7 +1222,7 @@ def create_bill_of_materials(data):
   # collect the preliminary assembly information for quoting
   # board size, number of different parts, number of total placements
 
-  assy_outfile_md = data['assy_dir']+'/'+data['projname']+'-v'+data['version']+'-assy-readme.md'
+  assy_outfile_md = data['bom_dir']+'/'+data['projname']+'-v'+data['version']+'-assy-readme.md'
   outassy_list = []
 
   place_count = 0
@@ -1315,8 +1315,8 @@ def create_assembly_files(data,components):
 
   print "Creating assembly files for PCB+Assembly"
 
-  if not os.path.exists(data['assy_dir']):
-    os.makedirs(data['assy_dir'])
+  if not os.path.exists(data['bom_dir']):
+    os.makedirs(data['bom_dir'])
 
   # make a tuple of the .pos files
   posfiles = (data['projname']+'-top.pos',data['projname']+'-bottom.pos')
@@ -1368,7 +1368,7 @@ def create_assembly_files(data,components):
   # create macrofab's xyrs file
   # only parts to be populated will be included
 
-  assy_outfile_xyrs = data['assy_dir']+'/'+data['projname']+'-v'+data['version']+'-assy.xyrs'
+  assy_outfile_xyrs = data['bom_dir']+'/'+data['projname']+'-v'+data['version']+'-assy.xyrs'
 
   with open(assy_outfile_xyrs,'w') as oxyrs:
     oxyrs.write('#Designator\tX-Loc\tY-Loc\tRotation\tSide\tType\tX-Size\tY-Size\
@@ -1453,7 +1453,7 @@ def update_readme(data):
   ## if the assembly flag was passed in, update the assembly info
 
   elif args.assy:
-    newlinefile = data['assy_dir']+'/'+data['projname']+'-v'+data['version']+'-assy-readme.md'
+    newlinefile = data['bom_dir']+'/'+data['projname']+'-v'+data['version']+'-assy-readme.md'
 
     tempfile = []
     newlines = []
@@ -1693,7 +1693,7 @@ if __name__ == '__main__':
 
       # remove all files in the assembly output dir
       cwd = os.getcwd()
-      os.chdir(data['assy_dir'])
+      os.chdir(data['bom_dir'])
       filelist = glob.glob('*')
       for f in filelist:
         os.remove(f)
