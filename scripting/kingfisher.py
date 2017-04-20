@@ -161,8 +161,8 @@ def create_new_project(projname,which_template,version):
 
   if which_template is None:
     which_template = raw_input("what is the absolute path to the json template file? ")
-#  else:
-#    which_template = kfconfig.templates_dir+which_template+'.json'
+  else:
+    which_template = kfconfig.templates_dir+which_template+'.json'
 
   print which_template
   call(['cp',which_template,projname+'/proj.json'])
