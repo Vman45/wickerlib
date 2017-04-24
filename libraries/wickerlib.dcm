@@ -277,6 +277,21 @@ D CAP CER 1UF 6.3V X5R 0402
 F http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J105KE19-01.pdf
 $ENDCMP
 #
+$CMP CAP-CER-2.2NF-50V-X7R-0402
+D CAP CER 2200PF 50V X7R RADIAL
+F https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-2.2NF-50V-X7R-0603
+D CAP CER 2200PF 50V X7R RADIAL
+F https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-2.2NF-50V-X7R-RADIAL
+D CAP CER 2200PF 50V X7R RADIAL
+F https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf
+$ENDCMP
+#
 $CMP CAP-CER-2.2UF-10V-X7R-0603
 D CAP CER 2.2UF 10V X7R 0603
 F http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL%20links/LMK107B7225KA-T.pdf
@@ -284,11 +299,6 @@ $ENDCMP
 #
 $CMP CAP-CER-2.2UF-25V-X7R-0805
 D CAP CER 2.2UF 25V X7R 0805
-$ENDCMP
-#
-$CMP CAP-CER-2200PF-50V-X7R-RADIAL
-D CAP CER 2200PF 50V X7R RADIAL
-F https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf
 $ENDCMP
 #
 $CMP CAP-CER-220UF-50V-ALUM-RADIAL
@@ -431,6 +441,11 @@ D CRYSTAL 16MHZ 30PPM 18pF 4SMD
 F http://www.ctscorp.com/wp-content/uploads/2015/11/008-0260-0.pdf
 $ENDCMP
 #
+$CMP CRYSTAL-16MHZ-18PF-40OHM-HC49-TH
+D CRYSTAL 16MHZ 30PPM 18pF 4SMD
+F http://www.ctscorp.com/wp-content/uploads/2015/11/008-0260-0.pdf
+$ENDCMP
+#
 $CMP CRYSTAL-20MHZ-18PF-40OHM-CTS-4SMD
 D CRYSTAL 20MHZ 18pF 4SMD
 F http://www.ctscorp.com/wp-content/uploads/2015/11/008-0260-0.pdf
@@ -542,6 +557,11 @@ $ENDCMP
 $CMP FIXED-IND-3.3UH-575MA-300-MOHM
 D FIXED IND 3.3UH 575MA 300 MOHM
 F http://www.bourns.com/docs/Product-Datasheets/78f_series.pdf
+$ENDCMP
+#
+$CMP FIXED-IND-3.9NH-840MA-66-MOHM
+D FIXED IND 3.3NH 500MA 150 MOHM
+F http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0083LQG18H.pdf
 $ENDCMP
 #
 $CMP FIXED-IND-4.7UH-600MA-344.5-MOHM
@@ -1176,6 +1196,11 @@ D IC REG LDO ADJ 0.5A LM317 DPAK
 F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000549.pdf
 $ENDCMP
 #
+$CMP IC-RF-ISM-2.4GHZ-TXRX-SPI-NRF24L01P-QFN20
+D IC CONTROLLR LI-ION 4.2V SOT23-5
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en025112
+$ENDCMP
+#
 $CMP IC-SHIFT-REGISTER-74HC595-DIP16
 D IC 8-BIT SHIFT REGISTER 16-DIP
 F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
@@ -1771,6 +1796,11 @@ $ENDCMP
 $CMP TEST_1P
 D Test Point Std Pin Hole
 K Test Point
+$ENDCMP
+#
+$CMP THERM-NTC-10K-1%-0402
+D RES SMD 1K OHM 1% 1/10W 0603
+F http://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf
 $ENDCMP
 #
 $CMP TRIMPOT-10K-3PIN-SMT-0.1W-TC33X
