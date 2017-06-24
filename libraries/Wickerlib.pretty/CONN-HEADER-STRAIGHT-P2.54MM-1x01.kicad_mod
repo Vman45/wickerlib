@@ -11,13 +11,16 @@
 # Verified: Yes
 # Finished: Yes
 
-(module CONN-HEADER-STRAIGHT-P2.54MM-1x01 (layer F.Cu) (tedit 58155D14)
+(module CONN-HEADER-STRAIGHT-P2.54MM-1x01 (layer F.Cu) (tedit 58FF6D5C)
   (descr "Through hole pin header")
   (tags "pin header")
-  (fp_text reference W6 (at 0 -2.75) (layer F.SilkS)
+  (fp_text reference W2 (at 0 -2.3495) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value A5 (at 0 0) (layer F.Fab)
+  (fp_text value %R (at 0 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 1 1) (layer F.CrtYd) (width 0.0508))

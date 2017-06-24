@@ -940,6 +940,7 @@ def create_component_list_from_netlist(data):
       parts_json.write(line+'\n')
 
   if os.path.isfile(net_json_path):
+    print net_json_path
     with open(net_json_path) as jfile:
       components = json.load(jfile)
 
@@ -1693,6 +1694,9 @@ if __name__ == '__main__':
 
       # remove all files in the assembly output dir
       cwd = os.getcwd()
+      if not os.path.exists(data['bom_dir']): 
+        os.makedirs(data['bom_dir'])
+      
       os.chdir(data['bom_dir'])
       filelist = glob.glob('*')
       for f in filelist:
