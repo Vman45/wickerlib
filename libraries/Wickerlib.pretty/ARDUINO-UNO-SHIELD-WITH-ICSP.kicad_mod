@@ -1,6 +1,6 @@
 # KiCad Footprint 
-# Originally from the KiCad Official Libraries
-#   http://github.com/kicad/
+# Originally from the Pouic13
+#   https://forum.kicad.info/t/library-for-shield-arduino/482
 # Edited by Jenner for Wickerlib
 #   http://github.com/wickerbox/wickerlib
 # This library file is provided under the GPLv3
@@ -11,19 +11,19 @@
 # Verified: Yes
 # Finished: Yes
 
-(module ARDUINO-UNO-SHIELD-WITH-ICSP (layer F.Cu) (tedit 585F103C)
-  (fp_text reference ARDUINO-UNO-SHIELD-WITH-ICSP (at -2 -18.4 90) (layer F.Fab) hide
+(module ARDUINO-UNO-SHIELD-WITH-ICSP (layer F.Cu) (tedit 59936F0F)
+  (fp_text reference REF** (at 32.9 -27.8) (layer F.Fab)
     (effects (font (thickness 0.3048)))
   )
   (fp_text value ARDUINO-UNO-SHIELD-WITH-ICSP (at 33 -12.7) (layer F.Fab) hide
     (effects (font (thickness 0.3048)))
   )
-  (fp_line (start 0 0) (end 66.04 0) (layer F.CrtYd) (width 0.2))
-  (fp_line (start 66.04 -2.54) (end 66.04 0) (layer F.CrtYd) (width 0.2))
-  (fp_line (start 66.04 -2.54) (end 70.993 -6.223) (layer F.CrtYd) (width 0.2))
-  (fp_line (start 66.04 -40.64) (end 70.993 -35.814) (layer F.CrtYd) (width 0.2))
-  (fp_line (start 70.993 -35.814) (end 70.993 -27.94) (layer F.CrtYd) (width 0.2))
-  (fp_line (start 70.993 -27.94) (end 70.993 -6.223) (layer F.CrtYd) (width 0.2))
+  (fp_line (start 0 0) (end 66.04 0) (layer F.Fab) (width 0.2))
+  (fp_line (start 66.04 -2.54) (end 66.04 0) (layer F.Fab) (width 0.2))
+  (fp_line (start 66.04 -2.54) (end 70.993 -6.223) (layer F.Fab) (width 0.2))
+  (fp_line (start 66.04 -40.64) (end 70.993 -35.814) (layer F.Fab) (width 0.2))
+  (fp_line (start 70.993 -35.814) (end 70.993 -27.94) (layer F.Fab) (width 0.2))
+  (fp_line (start 70.993 -27.94) (end 70.993 -6.223) (layer F.Fab) (width 0.2))
   (fp_text user SDO (at 68.707 -27.94) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -138,10 +138,10 @@
   (fp_text user D0 (at 63.65 -47.55 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start 66.04 -40.64) (end 66.04 -52.07) (layer F.CrtYd) (width 0.2))
-  (fp_line (start 66.04 -52.07) (end 64.77 -53.34) (layer F.CrtYd) (width 0.2))
-  (fp_line (start 64.77 -53.34) (end 0 -53.34) (layer F.CrtYd) (width 0.2))
-  (fp_line (start 0 0) (end 0 -53.34) (layer F.CrtYd) (width 0.2))
+  (fp_line (start 66.04 -40.64) (end 66.04 -52.07) (layer F.Fab) (width 0.2))
+  (fp_line (start 66.04 -52.07) (end 64.77 -53.34) (layer F.Fab) (width 0.2))
+  (fp_line (start 64.77 -53.34) (end 0 -53.34) (layer F.Fab) (width 0.2))
+  (fp_line (start 0 0) (end 0 -53.34) (layer F.Fab) (width 0.2))
   (pad A5 thru_hole oval (at 63.5 -2.54 90) (size 2.54 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad A4 thru_hole oval (at 60.96 -2.54 90) (size 2.54 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad A3 thru_hole oval (at 58.42 -2.54 90) (size 2.54 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
