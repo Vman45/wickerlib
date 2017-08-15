@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.5-e0-6337~49~ubuntu16.04.1)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 104.572999 74.854999 178.510001 123.265001)
+    (links 59)
+    (no_connects 41)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -14,10 +14,11 @@
 
   (page USLetter)
   (title_block
-    (title "Atmega2560 KiCad Template")
+    (title "Project Title")
     (date 2017-08-14)
     (rev v1.0)
     (company "Released under the CERN Open Hardware License v1.2")
+    (comment 1 "Based on a template by jenner@wickerbox.net")
   )
 
   (layers
@@ -111,6 +112,23 @@
     (via_drill 0.3302)
     (uvia_dia 0.6858)
     (uvia_drill 0.3302)
+    (add_net +12V)
+    (add_net +5V)
+    (add_net /FTDI_RESET)
+    (add_net /FTDI_RXIN)
+    (add_net /FTDI_TXOUT)
+    (add_net /MISO2)
+    (add_net /MOSI2)
+    (add_net /SCK2)
+    (add_net /VIN)
+    (add_net /~RESET2)
+    (add_net GND)
+    (add_net "Net-(C3-Pad1)")
+    (add_net "Net-(C4-Pad1)")
+    (add_net "Net-(C5-Pad1)")
+    (add_net "Net-(D2-Pad1)")
+    (add_net "Net-(LED1-Pad2)")
+    (add_net "Net-(R2-Pad1)")
   )
 
 )

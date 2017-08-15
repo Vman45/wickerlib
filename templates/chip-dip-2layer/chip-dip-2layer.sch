@@ -1,17 +1,17 @@
 EESchema Schematic File Version 2
-LIBS:chip-dip-shield-cache
 LIBS:chip-dips
+LIBS:chip-dip-2layer-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Project Title"
 Date ""
 Rev ""
 Comp "Released under the CERN Open Hardware License v1.2"
-Comment1 "jenner@wickerbox.net - http://wickerbox.net"
-Comment2 "Designed by Jenner at Wickerbox Electronics"
+Comment1 "Based on template by Jenner at http://wickerbox.net"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -23,12 +23,11 @@ F 0 "J13" H 4775 5025 100 0000 L CNN
 F 1 "DIP-HEADER-2x20" H 4550 2800 50  0001 L CNN
 F 2 "CHIP-DIPs:DIP_Header_2x20" H 5200 5400 50  0001 C CIN
 F 3 "http://sullinscorp.com/catalogs/146_PAGE119_.100_SFH11_SERIES_FEMALE_HDR_ST_RA.pdf" H 4950 4150 5   0001 C CNN
-F 4 "HEADER-FEMALE-2x20" H 5200 5400 50  0001 C CIN "Package"
-F 5 "Sullins" H 5200 5400 50  0001 C CIN "MF_Name"
-F 6 "SFH11-PBPC-D20-ST-BK" H 5200 5400 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 5200 5400 50  0001 C CIN "S1_Name"
-F 8 "S9200-ND" H 5200 5400 50  0001 C CIN "S1_PN"
-F 9 "DIP HEADER 2x20 P0.1IN TH" H 5200 5400 50  0001 C CIN "Description"
+F 4 "Sullins" H 5200 5400 50  0001 C CIN "MF_Name"
+F 5 "SFH11-PBPC-D20-ST-BK" H 5200 5400 50  0001 C CIN "MF_PN"
+F 6 "Digikey" H 5200 5400 50  0001 C CIN "S1_Name"
+F 7 "S9200-ND" H 5200 5400 50  0001 C CIN "S1_PN"
+F 8 "DIP HEADER 2x20 P0.1IN TH" H 5200 5400 50  0001 C CIN "Description"
 	1    4900 3850
 	1    0    0    -1  
 $EndComp
@@ -45,7 +44,6 @@ F 5 "Sullins" H 8000 5475 50  0001 C CIN "MF_Name"
 F 6 "SFH11-PBPC-D20-ST-BK" H 8000 5475 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 8000 5475 50  0001 C CIN "S1_Name"
 F 8 "S9200-ND" H 8000 5475 50  0001 C CIN "S1_PN"
-F 9 "DIP HEADER 2x20 P0.1IN TH" H 8000 5475 50  0001 C CIN "Description"
 	1    7700 3925
 	1    0    0    -1  
 $EndComp
