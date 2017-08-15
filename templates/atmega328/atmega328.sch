@@ -10,8 +10,8 @@ Title "Atmega328 KiCad Template"
 Date "2016-06-23"
 Rev "1.0"
 Comp "Released under the CERN Open Hardware License v1.2"
-Comment1 "jenner@wickerbox.net - http://wickerbox.net"
-Comment2 "Designed by Jenner at Wickerbox Electronics"
+Comment1 "Based on template by jenner@wickerbox.net"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -361,8 +361,8 @@ $Comp
 L DIODE-SCHOTTKY-20V-1A-SS12-SMA D2
 U 1 1 573232D9
 P 4250 1275
-F 0 "D2" H 4200 1175 50  0000 L CNN
-F 1 "20V 1A" H 4125 1375 50  0000 L CNN
+F 0 "D2" V 4150 1225 50  0000 L CNN
+F 1 "20V 1A" V 4350 1150 50  0000 L CNN
 F 2 "Wickerlib:DIODE-SMA" H 4250 925 50  0001 C CIN
 F 3 "http://www.vishay.com/docs/88746/ss12.pdf" H 4250 1275 5   0001 C CNN
 F 4 "UNDEFINED" H 4250 925 50  0001 C CIN "Package"
@@ -373,7 +373,7 @@ F 8 "SS12-E3/61TGICT-ND" H 4250 925 50  0001 C CIN "S1_PN"
 F 9 "DIODE SCHOTTKY 20V 1A SMA" H 4250 925 50  0001 C CIN "Description"
 F 10 "Not Verified" H 4250 925 50  0001 C CIN "Verified"
 	1    4250 1275
-	-1   0    0    1   
+	0    1    1    0   
 $EndComp
 $Comp
 L CAP-CER-0.1UF-100V-X7R-0603 C7
@@ -575,8 +575,8 @@ $Comp
 L DIODE-SCHOTTKY-20V-1A-SS12-SMA D3
 U 1 1 574C79CC
 P 7025 1275
-F 0 "D3" H 6975 1175 50  0000 L CNN
-F 1 "20V 1A" H 6900 1375 50  0000 L CNN
+F 0 "D3" V 6925 1225 50  0000 L CNN
+F 1 "20V 1A" V 7125 1175 50  0000 L CNN
 F 2 "Wickerlib:DIODE-SMA" H 7025 925 50  0001 C CIN
 F 3 "http://www.vishay.com/docs/88746/ss12.pdf" H 7025 1275 5   0001 C CNN
 F 4 "UNDEFINED" H 7025 925 50  0001 C CIN "Package"
@@ -587,7 +587,7 @@ F 8 "SS12-E3/61TGICT-ND" H 7025 925 50  0001 C CIN "S1_PN"
 F 9 "DIODE SCHOTTKY 20V 1A SMA" H 7025 925 50  0001 C CIN "Description"
 F 10 "Not Verified" H 7025 925 50  0001 C CIN "Verified"
 	1    7025 1275
-	-1   0    0    1   
+	0    1    1    0   
 $EndComp
 Text Notes 1525 4750 0    60   ~ 0
 To FTDI\nProgrammer
@@ -647,7 +647,7 @@ F 3 "" H 8450 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 4950 2225 0    60   ~ 0
-   Analog\nReference
+   Analog\nReference\nset to 5V
 $Comp
 L GND #PWR022
 U 1 1 576DE526
@@ -677,6 +677,126 @@ F 10 "Not Verified" H 5150 2150 50  0001 C CIN "Verified"
 	1    5150 2500
 	1    0    0    -1  
 $EndComp
+$Comp
+L +5V #PWR023
+U 1 1 576DF14A
+P 7025 2200
+F 0 "#PWR023" H 7025 2050 50  0001 C CNN
+F 1 "+5V" H 7025 2340 50  0000 C CNN
+F 2 "" H 7025 2200 50  0000 C CNN
+F 3 "" H 7025 2200 50  0000 C CNN
+	1    7025 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L IC-MCU-ATMEGA328-TQFP32 U2
+U 1 1 576E8EB9
+P 6050 4075
+F 0 "U2" H 5300 5325 50  0000 L CNN
+F 1 "ATMEGA328" H 6475 2700 50  0000 L CNN
+F 2 "Wickerlib:TQFP-32-7x7MM-P0.8MM" H 6050 3725 50  0001 C CIN
+F 3 "http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf" H 6050 4075 5   0001 C CNN
+F 4 "UNDEFINED" H 6050 3725 50  0001 C CIN "Package"
+F 5 "Atmel" H 6050 3725 50  0001 C CIN "MF_Name"
+F 6 "ATMEGA328P-AU" H 6050 3725 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 6050 3725 50  0001 C CIN "S1_Name"
+F 8 "ATMEGA328P-AU-ND" H 6050 3725 50  0001 C CIN "S1_PN"
+F 9 "IC MCU 8BIT 32KB FLASH 32TQFP" H 6050 3725 50  0001 C CIN "Description"
+F 10 "Not Verified" H 6050 3725 50  0001 C CIN "Verified"
+	1    6050 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER-FEMALE-10POS-TH-1x10-P0.1IN J4
+U 1 1 5774BCA1
+P 9275 3675
+F 0 "J4" H 9350 4125 50  0000 L CNN
+F 1 "DIGOUT1" V 9375 3175 50  0000 L CNN
+F 2 "Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x10" H 9275 3325 50  0001 C CIN
+F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 9275 3675 5   0001 C CNN
+F 4 "Pin_Header_Straight_1x10" H 9275 3325 50  0001 C CIN "Package"
+F 5 "Harwin" H 9275 3325 50  0001 C CIN "MF_Name"
+F 6 "M20-7821042" H 9275 3325 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 9275 3325 50  0001 C CIN "S1_Name"
+F 8 "952-1846-ND" H 9275 3325 50  0001 C CIN "S1_PN"
+F 9 "HEADER FEMALE 10POS TH 1x10 0.1”" H 9275 3325 50  0001 C CIN "Description"
+F 10 "Not Verified" H 9275 3325 50  0001 C CIN "Verified"
+	1    9275 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER-FEMALE-10POS-TH-1x10-P0.1IN J5
+U 1 1 5774BD30
+P 9275 4725
+F 0 "J5" H 9350 5175 50  0000 L CNN
+F 1 "DIGOUT2" V 9375 4225 50  0000 L CNN
+F 2 "Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x10" H 9275 4375 50  0001 C CIN
+F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 9275 4725 5   0001 C CNN
+F 4 "Pin_Header_Straight_1x10" H 9275 4375 50  0001 C CIN "Package"
+F 5 "Harwin" H 9275 4375 50  0001 C CIN "MF_Name"
+F 6 "M20-7821042" H 9275 4375 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 9275 4375 50  0001 C CIN "S1_Name"
+F 8 "952-1846-ND" H 9275 4375 50  0001 C CIN "S1_PN"
+F 9 "HEADER FEMALE 10POS TH 1x10 0.1”" H 9275 4375 50  0001 C CIN "Description"
+F 10 "Not Verified" H 9275 4375 50  0001 C CIN "Verified"
+	1    9275 4725
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1900 4350
+Text Label 4875 4725 0    60   ~ 0
+D0
+Text Label 4875 4875 0    60   ~ 0
+D1
+Text Label 4900 3625 0    60   ~ 0
+D11
+Text Label 4900 3525 0    60   ~ 0
+D12
+Text Label 4900 3425 0    60   ~ 0
+D13
+Text Label 8825 3225 0    60   ~ 0
+D2
+Text Label 8825 3325 0    60   ~ 0
+D3
+Text Label 8825 3425 0    60   ~ 0
+D4
+Text Label 8825 3525 0    60   ~ 0
+D5
+Text Label 8825 3625 0    60   ~ 0
+D6
+Text Label 8825 3725 0    60   ~ 0
+D7
+Text Label 8825 3825 0    60   ~ 0
+D8
+Text Label 8825 3925 0    60   ~ 0
+D9
+Text Label 8825 4025 0    60   ~ 0
+D10
+Text Label 8825 4125 0    60   ~ 0
+D11
+Text Label 8825 4275 0    60   ~ 0
+D12
+Text Label 8825 4375 0    60   ~ 0
+D13
+Text Label 8825 4475 0    60   ~ 0
+A0
+Text Label 8825 4575 0    60   ~ 0
+A1
+Text Label 8825 4675 0    60   ~ 0
+A2
+Text Label 8825 4775 0    60   ~ 0
+A3
+Text Label 8825 4875 0    60   ~ 0
+A4
+Text Label 8825 4975 0    60   ~ 0
+A5
+Text Label 8825 5075 0    60   ~ 0
+A6(*)
+Text Label 8825 5175 0    60   ~ 0
+A7(*)
+Text Notes 8825 5450 0    60   ~ 0
+* ADC6 and ADC7 can only\nbe used as analog inputs
+Text Notes 8600 6150 0    60   ~ 0
+Heartbeat
 Wire Wire Line
 	4800 1275 5650 1275
 Wire Wire Line
@@ -798,47 +918,13 @@ Wire Wire Line
 Wire Wire Line
 	5150 2275 5150 2400
 Wire Wire Line
-	4600 2275 5550 2275
-Wire Wire Line
 	5650 2275 7025 2275
-$Comp
-L +5V #PWR023
-U 1 1 576DF14A
-P 7025 2200
-F 0 "#PWR023" H 7025 2050 50  0001 C CNN
-F 1 "+5V" H 7025 2340 50  0000 C CNN
-F 2 "" H 7025 2200 50  0000 C CNN
-F 3 "" H 7025 2200 50  0000 C CNN
-	1    7025 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7350 1275 7350 1150
 Wire Wire Line
 	7025 2200 7025 2425
-$Comp
-L IC-MCU-ATMEGA328-TQFP32 U2
-U 1 1 576E8EB9
-P 6050 4075
-F 0 "U2" H 5300 5325 50  0000 L CNN
-F 1 "ATMEGA328" H 6475 2700 50  0000 L CNN
-F 2 "Wickerlib:TQFP-32-7x7MM-P0.8MM" H 6050 3725 50  0001 C CIN
-F 3 "http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf" H 6050 4075 5   0001 C CNN
-F 4 "UNDEFINED" H 6050 3725 50  0001 C CIN "Package"
-F 5 "Atmel" H 6050 3725 50  0001 C CIN "MF_Name"
-F 6 "ATMEGA328P-AU" H 6050 3725 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 6050 3725 50  0001 C CIN "S1_Name"
-F 8 "ATMEGA328P-AU-ND" H 6050 3725 50  0001 C CIN "S1_PN"
-F 9 "IC MCU 8BIT 32KB FLASH 32TQFP" H 6050 3725 50  0001 C CIN "Description"
-F 10 "Not Verified" H 6050 3725 50  0001 C CIN "Verified"
-	1    6050 4075
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2725 3525 5150 3525
-Wire Wire Line
-	5550 2175 5550 2725
-Connection ~ 5550 2275
 Connection ~ 6150 2275
 Connection ~ 6575 2275
 Wire Wire Line
@@ -850,67 +936,6 @@ Connection ~ 5750 2275
 Wire Wire Line
 	5650 2725 5650 2275
 Connection ~ 7025 2275
-$Comp
-L +5V #PWR024
-U 1 1 5770228F
-P 5550 2175
-F 0 "#PWR024" H 5550 2025 50  0001 C CNN
-F 1 "+5V" H 5550 2315 50  0000 C CNN
-F 2 "" H 5550 2175 50  0000 C CNN
-F 3 "" H 5550 2175 50  0000 C CNN
-	1    5550 2175
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER-FEMALE-10POS-TH-1x10-P0.1IN J4
-U 1 1 5774BCA1
-P 9275 3675
-F 0 "J4" H 9350 4125 50  0000 L CNN
-F 1 "DIGOUT1" V 9375 3175 50  0000 L CNN
-F 2 "Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x10" H 9275 3325 50  0001 C CIN
-F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 9275 3675 5   0001 C CNN
-F 4 "Pin_Header_Straight_1x10" H 9275 3325 50  0001 C CIN "Package"
-F 5 "Harwin" H 9275 3325 50  0001 C CIN "MF_Name"
-F 6 "M20-7821042" H 9275 3325 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 9275 3325 50  0001 C CIN "S1_Name"
-F 8 "952-1846-ND" H 9275 3325 50  0001 C CIN "S1_PN"
-F 9 "HEADER FEMALE 10POS TH 1x10 0.1”" H 9275 3325 50  0001 C CIN "Description"
-F 10 "Not Verified" H 9275 3325 50  0001 C CIN "Verified"
-	1    9275 3675
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER-FEMALE-10POS-TH-1x10-P0.1IN J5
-U 1 1 5774BD30
-P 9275 4725
-F 0 "J5" H 9350 5175 50  0000 L CNN
-F 1 "DIGOUT2" V 9375 4225 50  0000 L CNN
-F 2 "Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x10" H 9275 4375 50  0001 C CIN
-F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 9275 4725 5   0001 C CNN
-F 4 "Pin_Header_Straight_1x10" H 9275 4375 50  0001 C CIN "Package"
-F 5 "Harwin" H 9275 4375 50  0001 C CIN "MF_Name"
-F 6 "M20-7821042" H 9275 4375 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 9275 4375 50  0001 C CIN "S1_Name"
-F 8 "952-1846-ND" H 9275 4375 50  0001 C CIN "S1_PN"
-F 9 "HEADER FEMALE 10POS TH 1x10 0.1”" H 9275 4375 50  0001 C CIN "Description"
-F 10 "Not Verified" H 9275 4375 50  0001 C CIN "Verified"
-	1    9275 4725
-	1    0    0    -1  
-$EndComp
-Connection ~ 5150 2275
-Text Label 4600 2275 0    60   ~ 0
-AREF
-NoConn ~ 1900 4350
-Text Label 4875 4725 0    60   ~ 0
-D0
-Text Label 4875 4875 0    60   ~ 0
-D1
-Text Label 4900 3625 0    60   ~ 0
-D11
-Text Label 4900 3525 0    60   ~ 0
-D12
-Text Label 4900 3425 0    60   ~ 0
-D13
 Wire Wire Line
 	9075 5175 7050 5175
 Wire Wire Line
@@ -945,36 +970,12 @@ Wire Wire Line
 	9075 3325 7050 3325
 Wire Wire Line
 	7050 3225 9075 3225
-Text Label 8825 3225 0    60   ~ 0
-D2
-Text Label 8825 3325 0    60   ~ 0
-D3
-Text Label 8825 3425 0    60   ~ 0
-D4
-Text Label 8825 3525 0    60   ~ 0
-D5
-Text Label 8825 3625 0    60   ~ 0
-D6
-Text Label 8825 3725 0    60   ~ 0
-D7
-Text Label 8825 3825 0    60   ~ 0
-D8
-Text Label 8825 3925 0    60   ~ 0
-D9
-Text Label 8825 4025 0    60   ~ 0
-D10
 Wire Wire Line
 	7550 4125 9075 4125
-Text Label 8825 4125 0    60   ~ 0
-D11
 Wire Wire Line
 	7675 4275 9075 4275
 Wire Wire Line
 	7800 4375 9075 4375
-Text Label 8825 4275 0    60   ~ 0
-D12
-Text Label 8825 4375 0    60   ~ 0
-D13
 Wire Wire Line
 	2825 3425 2825 6250
 Connection ~ 3375 3425
@@ -1008,25 +1009,21 @@ Connection ~ 5500 5550
 Wire Wire Line
 	5600 5525 5600 5550
 Connection ~ 5600 5550
-Text Label 8825 4475 0    60   ~ 0
-A0
-Text Label 8825 4575 0    60   ~ 0
-A1
-Text Label 8825 4675 0    60   ~ 0
-A2
-Text Label 8825 4775 0    60   ~ 0
-A3
-Text Label 8825 4875 0    60   ~ 0
-A4
-Text Label 8825 4975 0    60   ~ 0
-A5
-Text Label 8825 5075 0    60   ~ 0
-A6(*)
-Text Label 8825 5175 0    60   ~ 0
-A7(*)
-Text Notes 8825 5450 0    60   ~ 0
-* ADC6 and ADC7 can only\nbe used as analog inputs
-Text Notes 8600 6150 0    60   ~ 0
-Heartbeat
 Connection ~ 8450 3725
+Connection ~ 5550 2275
+Wire Wire Line
+	5550 2175 5550 2725
+$Comp
+L +5V #PWR024
+U 1 1 5770228F
+P 5550 2175
+F 0 "#PWR024" H 5550 2025 50  0001 C CNN
+F 1 "+5V" H 5550 2315 50  0000 C CNN
+F 2 "" H 5550 2175 50  0000 C CNN
+F 3 "" H 5550 2175 50  0000 C CNN
+	1    5550 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2275 5550 2275
 $EndSCHEMATC
