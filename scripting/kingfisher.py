@@ -21,7 +21,7 @@
 # Released under the GPLv3.
 #
 
-import sys, os, zipfile, glob, argparse, re, datetime, json, Image
+import os, zipfile, glob, argparse, re, datetime, json, Image
 import kfconfig
 from shutil import copyfile
 from subprocess import call
