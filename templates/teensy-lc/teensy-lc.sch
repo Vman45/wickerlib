@@ -1,17 +1,16 @@
 EESchema Schematic File Version 2
-LIBS:teensy-lc-cache
 LIBS:wickerlib
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Project Title"
 Date ""
-Rev ""
+Rev "v1.0"
 Comp "Released under the CERN Open Hardware License v1.2"
-Comment1 "jenner@wickerbox.net - http://wickerbox.net"
-Comment2 "Designed by Jenner at Wickerbox Electronics"
+Comment1 "Based on template by jenner@wickerbox.net"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -183,15 +182,13 @@ U 1 1 5749FE2C
 P 3025 3200
 F 0 "J1" H 2575 4450 50  0000 L CNN
 F 1 "TEENSY-LC" H 2575 4350 50  0000 L CNN
-F 2 "TEENSY-LC" V 2525 2800 50  0001 C CIN
-F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 2825 3200 5   0001 C CNN
-F 4 "TEENSY-LC" V 2525 2800 50  0001 C CIN "Package"
-F 5 "Harwin" V 2525 2800 50  0001 C CIN "MF_Name"
-F 6 "TEENSY-LC" V 2525 2800 50  0001 C CIN "MF_PN"
-F 7 "PJRC" V 2525 2800 50  0001 C CIN "S1_Name"
-F 8 "TEENSY-LC" V 2525 2850 50  0001 C CIN "S1_PN"
-F 9 "TEENSY LC " V 2525 2800 50  0001 C CIN "Description"
-F 10 "Not Verified" V 2525 2800 50  0001 C CIN "Verified"
+F 2 "Wickerlib:TEENSY-LC-NOSILK" V 2525 2800 50  0001 C CIN
+F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 2825 3200 10  0001 C CNN
+F 4 "Harwin" V 2525 2800 50  0001 C CIN "MF_Name"
+F 5 "TEENSY-LC" V 2525 2800 50  0001 C CIN "MF_PN"
+F 6 "PJRC" V 2525 2800 50  0001 C CIN "S1_Name"
+F 7 "TEENSY-LC" V 2525 2850 50  0001 C CIN "S1_PN"
+F 8 "TEENSY LC" V 2525 2800 50  0001 C CIN "Description"
 	1    3025 3200
 	1    0    0    -1  
 $EndComp
