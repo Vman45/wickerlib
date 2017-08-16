@@ -11,12 +11,15 @@
 # Verified: No
 # Finished: Yes
 
-(module LED-KINGBRIGHT-APTF-0606-SMD (layer F.Cu) (tedit 585F056E)
-  (fp_text reference REF** (at 0.75 0 90) (layer F.Fab)
+(module LED-KINGBRIGHT-APTF-0606-SMD (layer F.Cu) (tedit 599477C0)
+  (fp_text reference REF** (at 0 2.025 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value LED-KINGBRIGHT-APTF-0606-SMD (at -1.5 -3) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user 1 (at 0.9 0.525) (layer F.Fab)
+    (effects (font (size 0.508 0.508) (thickness 0.0508)))
   )
   (fp_arc (start 1.75 0.5) (end 1.75 0.75) (angle 180) (layer F.Fab) (width 0.04064))
   (fp_line (start 1.75 -0.75) (end 1.75 -1.25) (layer F.Fab) (width 0.04064))
@@ -32,7 +35,7 @@
   (fp_line (start 1.75 1.25) (end -1.75 1.25) (layer F.CrtYd) (width 0.04064))
   (fp_line (start 1.75 -1.25) (end 1.75 1.25) (layer F.CrtYd) (width 0.04064))
   (fp_line (start -0.75 -0.15) (end -0.75 0.1) (layer F.Fab) (width 0.254))
-  (fp_text user %R (at 0.925 -2.3) (layer F.SilkS)
+  (fp_text user %R (at 0.025 -2.025) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 1.75 -0.5) (end 1.75 -0.25) (angle 180) (layer F.Fab) (width 0.04064))
