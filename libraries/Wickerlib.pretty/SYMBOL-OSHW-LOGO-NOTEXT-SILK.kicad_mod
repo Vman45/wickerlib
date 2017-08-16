@@ -17,7 +17,7 @@
   (fp_text reference REF** (at 0.09906 -4.38912) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SYMBOL-OSHW-LOGO-NOTEXT-SILK (at 0.30988 6.56082) (layer F.Fab) hide
+  (fp_text value SYMBOL-OSHW-LOGO-NOTEXT-SILK (at 0 3) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -1.78054 0.92964) (end -2.03962 1.49098) (layer F.SilkS) (width 0.15))

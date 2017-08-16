@@ -9,8 +9,7 @@
 # Verified: Yes
 # Finished: Yes
 
-
-(module TEENSY-LC-NOSILK (layer F.Cu) (tedit 57379CE3)
+(module TEENSY-LC-NOSILK (layer F.Cu) (tedit 599484F9)
   (fp_text reference J1 (at -10.16 25.4 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,10 +19,10 @@
   (fp_text user "TEENSY LC" (at 2.54 25.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start -11.43 24.13) (end 6.35 24.13) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start -11.43 -11.43) (end -11.43 24.13) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start 6.35 -11.43) (end -11.43 -11.43) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start 6.35 24.13) (end 6.35 -11.43) (layer F.CrtYd) (width 0.1524))
+  (fp_line (start -11.43 24.13) (end 6.35 24.13) (layer F.Fab) (width 0.0508))
+  (fp_line (start -11.43 -11.43) (end -11.43 24.13) (layer F.Fab) (width 0.0508))
+  (fp_line (start 6.35 -11.43) (end -11.43 -11.43) (layer F.Fab) (width 0.0508))
+  (fp_line (start 6.35 24.13) (end 6.35 -11.43) (layer F.Fab) (width 0.0508))
   (pad G1 thru_hole circle (at -10.16 -10.16) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 0 thru_hole circle (at -10.16 -7.62) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -10.16 -5.08) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))

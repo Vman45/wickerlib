@@ -11,7 +11,7 @@
 # Verified: Yes
 # Finished: Yes
 
-(module TO-220-NEUTRAL123-VERT-LONGPADS (layer F.Cu) (tedit 579D5D16)
+(module TO-220-3PIN-VERT-LONGPADS (layer F.Cu) (tedit 599485DA)
   (descr "TO-220, Neutral, Vertical, Large Pads,")
   (tags "TO-220, Neutral, Vertical, Large Pads,")
   (fp_text reference NCP7805-5V (at 0 0) (layer F.Fab)
@@ -24,12 +24,7 @@
   (fp_line (start -5.5 2) (end 5.5 2) (layer F.CrtYd) (width 0.05))
   (fp_line (start -5.5 -3.25) (end -5.5 2) (layer F.CrtYd) (width 0.05))
   (fp_line (start 5.5 -3.25) (end -5.5 -3.25) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.5 -2) (end -5.5 -2) (layer F.Fab) (width 0.05))
-  (fp_line (start -1.5 -2) (end -1.5 -3.25) (layer F.Fab) (width 0.05))
-  (fp_line (start -1 -2) (end -1.5 -2) (layer F.Fab) (width 0.05))
-  (fp_line (start 1.75 -2) (end 1.75 -3.25) (layer F.Fab) (width 0.05))
-  (fp_line (start 1.75 -2) (end 0.75 -2) (layer F.Fab) (width 0.05))
-  (fp_line (start 5.5 -2) (end 3.25 -2) (layer F.Fab) (width 0.05))
+  (fp_line (start 5.5 -2) (end -5.5 -2) (layer F.Fab) (width 0.05))
   (fp_line (start 5.5 -3) (end 5.5 -3.25) (layer F.Fab) (width 0.05))
   (fp_line (start 5.5 -3.25) (end -5.5 -3.25) (layer F.Fab) (width 0.05))
   (fp_line (start -5.5 2) (end -5.5 -3.25) (layer F.Fab) (width 0.05))

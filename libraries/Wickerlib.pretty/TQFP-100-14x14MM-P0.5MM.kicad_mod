@@ -11,8 +11,7 @@
 # Verified: No
 # Finished: Yes
 
-
-(module TQFP-100-14x14MM-P0.5MM (layer F.Cu) (tedit 57904483)
+(module TQFP-100-14x14MM-P0.5MM (layer F.Cu) (tedit 599487A2)
   (descr "100-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body 2.00 mm Footprint [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFP 0.5")
   (attr smd)
@@ -22,18 +21,15 @@
   (fp_text value ATMEGA2560 (at 0 2.794) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start 8.636 8.636) (end 8.636 -8.636) (layer F.Fab) (width 0.05))
-  (fp_line (start -8.636 8.636) (end 8.636 8.636) (layer F.Fab) (width 0.05))
-  (fp_line (start -8.636 -8.636) (end -8.636 8.636) (layer F.Fab) (width 0.05))
-  (fp_line (start 8.636 -8.636) (end -8.636 -8.636) (layer F.Fab) (width 0.05))
+  (fp_line (start -8.7 -6.4) (end -6.4 -8.7) (layer F.Fab) (width 0.049784))
   (fp_text user %R (at -9.652 -5.9309 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center -7.62 -6.096) (end -7.62 -5.842) (layer F.Fab) (width 0.2))
-  (fp_line (start -8.7 -8.7) (end -8.7 8.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 8.7 -8.7) (end 8.7 8.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -8.7 -8.7) (end 8.7 -8.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -8.7 8.7) (end 8.7 8.7) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -8.7 -6.4) (end -8.7 8.7) (layer F.Fab) (width 0.05))
+  (fp_line (start 8.7 -8.7) (end 8.7 8.7) (layer F.Fab) (width 0.05))
+  (fp_line (start -6.4 -8.7) (end 8.7 -8.7) (layer F.Fab) (width 0.05))
+  (fp_line (start -8.7 8.7) (end 8.7 8.7) (layer F.Fab) (width 0.05))
   (fp_line (start -7.175 -7.175) (end -7.175 -6.375) (layer F.SilkS) (width 0.15))
   (fp_line (start 7.175 -7.175) (end 7.175 -6.375) (layer F.SilkS) (width 0.15))
   (fp_line (start 7.175 7.175) (end 7.175 6.375) (layer F.SilkS) (width 0.15))
@@ -42,7 +38,6 @@
   (fp_line (start -7.175 7.175) (end -6.375 7.175) (layer F.SilkS) (width 0.15))
   (fp_line (start 7.175 7.175) (end 6.375 7.175) (layer F.SilkS) (width 0.15))
   (fp_line (start 7.175 -7.175) (end 6.375 -7.175) (layer F.SilkS) (width 0.15))
-  (fp_line (start -7.175 -6.375) (end -8.45 -6.375) (layer F.SilkS) (width 0.15))
   (fp_circle (center -7.874 -7.112) (end -7.874 -6.858) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -7.7 -6) (size 1.5 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -7.7 -5.5) (size 1.5 0.3) (layers F.Cu F.Paste F.Mask))
