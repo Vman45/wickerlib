@@ -17,7 +17,7 @@
 # user's responsibility to verify the package. 
 
 # KiCad Footprint 
-# Based on a template made by Jonathan 
+# Based on a template made by N 
 #   
 #   http://github.com/kicad/  
 # Edited by Jenner for Wickerlib
