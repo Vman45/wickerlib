@@ -1,3 +1,16 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Verified: Yes
+# Finished: Yes
+
 (module TQFP-48-1EP_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 59948860)
   (descr "48-Lead Thin Quad Flatpack (PT) - 7x7x1.0 mm Body [TQFP] With Exposed Pad (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFP 0.5")

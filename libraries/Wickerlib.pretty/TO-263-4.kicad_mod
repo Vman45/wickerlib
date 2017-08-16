@@ -1,3 +1,16 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Verified: Yes
+# Finished: Yes
+
 (module TO-263-4 (layer F.Cu) (tedit 599486CA)
   (attr smd)
   (fp_text reference U1 (at 1.651 -0.4445) (layer F.Fab)
