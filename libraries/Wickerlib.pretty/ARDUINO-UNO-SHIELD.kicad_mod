@@ -1,22 +1,9 @@
-# KiCad Footprint 
-# Originally from the Pouic13
-#   https://forum.kicad.info/t/library-for-shield-arduino/482
-# Edited by Jenner for Wickerlib
-#   http://github.com/wickerbox/wickerlib
-# This library file is provided under the GPLv3
-#   https://www.gnu.org/licenses/gpl-3.0.html
-# The footprint may not be correct! It is the end
-# user's responsibility to verify the package.
-#
-# Verified: Yes
-# Finished: Yes
-
-(module ARDUINO-UNO-SHIELD (layer F.Cu) (tedit 59936E9B)
+(module ARDUINO-UNO-SHIELD (layer F.Cu) (tedit 59D58C2B)
   (descr none)
-  (fp_text reference U1 (at 33.1 -23.3) (layer F.Fab)
+  (fp_text reference U5 (at 33.1 -23.3) (layer F.Fab) hide
     (effects (font (thickness 0.3048)))
   )
-  (fp_text value ARDUINO-UNO-SHIELD (at 34.7 -18.8) (layer F.SilkS) hide
+  (fp_text value ARDUINO-101-SHIELD (at 34.7 -18.8) (layer F.SilkS) hide
     (effects (font (thickness 0.3048)))
   )
   (fp_line (start 0 0) (end 66.04 0) (layer F.Fab) (width 0.2))

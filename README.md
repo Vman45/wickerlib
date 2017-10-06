@@ -5,6 +5,8 @@ Wickerlib is part of my quest to build my small hardware design business and tur
 
 ### Libraries
 
+- [IPC 7351B Standard and some tools](http://www.ipc.org/ContentPage.aspx?pageid=Land-Pattern-Calculator)
+
 - wickerlib.dcm
 - wickerlib.lib
 - Wickerlib.pretty
