@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5-e0-6337~49~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
     (links 10)
     (no_connects 10)
-    (area 74.854999 45.009999 115.645001 100.405001)
+    (area 72.123 45.009999 116.339001 101.129001)
     (thickness 1.6)
-    (drawings 5)
+    (drawings 6)
     (tracks 0)
     (zones 0)
     (modules 2)
@@ -121,7 +121,7 @@
   )
 
   (module CHIP-DIPs:DIP_Header_2x20 locked (layer F.Cu) (tedit 572ECEC8) (tstamp 572EA43B)
-    (at 76.2 50.8)
+    (at 26.3652 51.562)
     (descr "Standard 2x20 DIP header based on KiCad Pin Header 2x20")
     (tags "pin header")
     (path /572EA21C)
@@ -195,7 +195,7 @@
   )
 
   (module CHIP-DIPs:DIP_Header_2x20 locked (layer F.Cu) (tedit 572ECEC1) (tstamp 572EA467)
-    (at 111.76 50.8)
+    (at 61.9252 51.562)
     (descr "Standard 2x20 DIP header based on KiCad Pin Header 2x20")
     (tags "pin header")
     (path /572EA292)
@@ -269,10 +269,13 @@
     )
   )
 
-  (gr_line (start 74.93 45.085) (end 115.57 45.085) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 115.57 45.085) (end 115.57 100.33) (layer Edge.Cuts) (width 0.15) (tstamp 572EA76B))
-  (gr_line (start 81.28 100.33) (end 115.57 100.33) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 74.93 100.33) (end 81.28 100.33) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 74.93 45.085) (end 74.93 100.33) (layer Edge.Cuts) (width 0.15))
+  (gr_text "FABRICATION NOTES\n\n1. THIS IS A 2 LAYER BOARD. \n2. EXTERNAL LAYERS SHALL HAVE 1 OZ COPPER.\n3. MATERIAL: FR4 AND 0.062 INCH +/- 10% THICK.\n4. BOARDS SHALL BE ROHS COMPLIANT. \n5. MANUFACTURE IN ACCORDANCE WITH IPC-6012 CLASS 2\n6. MASK: BOTH SIDES OF THE BOARD SHALL HAVE \n   SOLDER MASK (ANY COLOR) OVER BARE COPPER. \n7. SILK: BOTH SIDES OF THE BOARD SHALL HAVE \n   WHITE SILKSCREEN. DO NOT PLACE SILK OVER BARE COPPER.\n8. FINISH: ENIG.\n9. MINIMUM TRACE WIDTH - 0.006 INCH.\n   MINIMUM SPACE - 0.006 INCH.\n   MINIMUM HOLE DIA - 0.013 INCH. \n10. MAX HOLE PLACEMENT TOLERANCE OF +/- 0.003 INCH.\n11. MAX HOLE DIAMETER TOLERANCE OF +/- 0.003 INCH AFTER PLATING." (at 108.3564 77.2668) (layer Dwgs.User)
+    (effects (font (size 2.54 2.54) (thickness 0.254)) (justify left))
+  )
+  (gr_line (start 25.0952 45.847) (end 65.7352 45.847) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 65.7352 45.847) (end 65.7352 101.092) (layer Edge.Cuts) (width 0.15) (tstamp 572EA76B))
+  (gr_line (start 31.4452 101.092) (end 65.7352 101.092) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 25.0952 101.092) (end 31.4452 101.092) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 25.0952 45.847) (end 25.0952 101.092) (layer Edge.Cuts) (width 0.15))
 
 )
