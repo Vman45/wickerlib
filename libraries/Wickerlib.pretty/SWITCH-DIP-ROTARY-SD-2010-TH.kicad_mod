@@ -1,0 +1,41 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Verified: Yes
+# Finished: Yes
+
+(module SWITCH-DIP-ROTARY-SD-2010-TH (layer F.Cu) (tedit 5B101663)
+  (descr "Through hole pin header")
+  (tags "pin header")
+  (fp_text reference R1 (at 0.157037 -0.116241 270) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 10K (at 0.411037 3.693759 180) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -3.842963 5.391759) (end -4.842963 4.391759) (layer F.SilkS) (width 0.127))
+  (fp_line (start 5.157037 -4.608241) (end -4.842963 -4.608241) (layer F.SilkS) (width 0.127))
+  (fp_line (start 5.157037 5.391759) (end 5.157037 -4.608241) (layer F.SilkS) (width 0.127))
+  (fp_line (start -3.842963 5.391759) (end 5.157037 5.391759) (layer F.SilkS) (width 0.127))
+  (fp_line (start -4.842963 -4.608241) (end -4.842963 4.391759) (layer F.SilkS) (width 0.127))
+  (fp_line (start 5.157037 5.391759) (end -3.842963 5.391759) (layer F.Fab) (width 0.0508))
+  (fp_line (start 5.157037 -4.608241) (end 5.157037 5.391759) (layer F.Fab) (width 0.0508))
+  (fp_line (start -4.842963 -4.608241) (end 5.157037 -4.608241) (layer F.Fab) (width 0.0508))
+  (fp_line (start -4.842963 4.391759) (end -4.842963 -4.608241) (layer F.Fab) (width 0.0508))
+  (fp_circle (center -2.382963 4.201759) (end -2.128963 3.947759) (layer F.Fab) (width 0.2))
+  (fp_text user %R (at 4.3307 -5.4991 180) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -3.842963 5.391759) (end -4.842963 4.391759) (layer F.Fab) (width 0.0508))
+  (pad 1 thru_hole circle (at -2.382963 4.201759 90) (size 2.032 2.032) (drill 1.16) (layers *.Cu *.Mask F.SilkS))
+  (pad C thru_hole circle (at 0.157037 4.201759 90) (size 2.032 2.032) (drill 1.16) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole circle (at 2.697037 4.201759 90) (size 2.032 2.032) (drill 1.16) (layers *.Cu *.Mask F.SilkS))
+  (pad 8 thru_hole circle (at -2.382963 -3.418241 90) (size 2.032 2.032) (drill 1.16) (layers *.Cu *.Mask F.SilkS))
+  (pad C thru_hole circle (at 0.157037 -3.418241 90) (size 2.032 2.032) (drill 1.16) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.697037 -3.418241 90) (size 2.032 2.032) (drill 1.16) (layers *.Cu *.Mask F.SilkS))
+)
