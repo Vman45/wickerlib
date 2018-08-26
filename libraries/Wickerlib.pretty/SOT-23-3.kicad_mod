@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 134
+# Fab_YSize_mils: 134
+#
 # Verified: Yes
 # Finished: Yes
 
 (module SOT-23-3 (layer F.Cu) (tedit 5B3E9DFA)
-  (descr "SOT-23, SOT-23-3, Standard")
-  (tags SOT-23)
   (attr smd)
   (fp_text reference Q1 (at 0 0 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

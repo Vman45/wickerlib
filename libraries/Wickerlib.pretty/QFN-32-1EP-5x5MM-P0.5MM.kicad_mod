@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
-# Verified: No
+# Fab_XSize_mils: 236
+# Fab_YSize_mils: 236
+#
+# Verified: Yes
 # Finished: Yes
 
 (module QFN-32-1EP-5x5MM-P0.5MM (layer F.Cu) (tedit 59947CD5)
-  (descr "UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)")
-  (tags "QFN 0.5")
   (attr smd)
   (fp_text reference REF** (at 0 0.1) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

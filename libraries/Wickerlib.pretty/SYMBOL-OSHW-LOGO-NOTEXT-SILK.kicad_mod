@@ -8,12 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 0
+# Fab_YSize_mils: 0
+#
 # Verified: Yes
 # Finished: Yes
 
 (module SYMBOL-OSHW-LOGO-NOTEXT-SILK (layer F.Cu) (tedit 5970E4FB)
-  (descr "Symbol, OSHW-Logo, Silk Screen,")
-  (tags "Symbol, OSHW-Logo, Silk Screen,")
+  (attr virtual)
   (fp_text reference REF** (at 0.09906 -4.38912) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

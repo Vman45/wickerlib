@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 260
+# Fab_YSize_mils: 126
+#
 # Verified: Yes
 # Finished: Yes
 
 (module RLC-2010-SMD (layer F.Cu) (tedit 58157164)
-  (descr "Resistor SMD RLC-2010-SMD, reflow soldering, Vishay (see dcrcw.pdf)")
-  (tags "resistor RLC-2010-SMD")
   (attr smd)
   (fp_text reference REF** (at 0 -2.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

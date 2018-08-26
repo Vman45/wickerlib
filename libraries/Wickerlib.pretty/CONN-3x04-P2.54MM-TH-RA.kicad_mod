@@ -8,10 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 400
+# Fab_YSize_mils: 600
+#
 # Verified: No
 # Finished: Yes
 
 (module CONN-3x04-P2.54MM-TH-RA (layer F.Cu) (tedit 585EC9E7)
+  (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

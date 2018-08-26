@@ -6,12 +6,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 315
+# Fab_YSize_mils: 236
+#
 # Verified: Yes
 # Finished: Yes
 
 (module SWITCH-OMRON-MOMENTARY-TH-B3F-10XX (layer F.Cu) (tedit 57C4CEE6)
-  (descr SWITCH-OMRON-MOMENTARY-TH-B3F-10XX)
-  (tags "Omron B3F-10xx")
+  (attr smd)
   (fp_text reference SW2 (at 3 2) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

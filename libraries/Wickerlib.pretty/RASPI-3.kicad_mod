@@ -1,4 +1,21 @@
+# KiCad Footprint 
+# Originally from the XESS Corp
+#   https://github.com/xesscorp/RPi_Hat_Template
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the MIT
+#   https://opensource.org/licenses/MIT
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 2559
+# Fab_YSize_mils: 2224
+#
+# Verified: No
+# Finished: Yes
+
 (module RASPI-3 (layer F.Cu) (tedit 5AF47BE6)
+  (attr smd)
   (fp_text reference RASPI-3 (at 34 -27) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

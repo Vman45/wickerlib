@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 374
+# Fab_YSize_mils: 394
+#
 # Verified: Yes
 # Finished: Yes
 
 (module CONN-JST-S2B-PH-SM4-TB (layer F.Cu) (tedit 58156860)
-  (descr "JST PH series connector, S2B-PH-SM4-TB")
-  (tags "connector jst ph")
   (attr smd)
   (fp_text reference REF** (at 0 0.25) (layer F.Fab)
     (effects (font (size 2.032 2.032) (thickness 0.254)))

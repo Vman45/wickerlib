@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 244
+# Fab_YSize_mils: 283
+#
 # Verified: Yes
 # Finished: Yes
 
 (module RLC-1825-SMD (layer F.Cu) (tedit 58157121)
-  (descr "Capacitor SMD RLC-1825-SMD, reflow soldering, AVX (see smccp.pdf)")
-  (tags "capacitor RLC-1825-SMD")
   (attr smd)
   (fp_text reference REF** (at 0 -4.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

@@ -8,12 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 96
+# Fab_YSize_mils: 122
+#
 # Verified: No
 # Finished: Yes
 
 (module LED-D5MM-2PIN-SH4356 (layer F.Cu) (tedit 59874B72)
-  (descr "LED 5mm round vertical")
-  (tags "LED 5mm round vertical")
+  (attr smd)
   (fp_text reference LED1 (at 1.25 0 270) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

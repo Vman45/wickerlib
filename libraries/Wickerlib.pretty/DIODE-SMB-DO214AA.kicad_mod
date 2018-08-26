@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 295
+# Fab_YSize_mils: 178
+#
 # Verified: No
 # Finished: Yes
 
 (module DIODE-SMB-DO214AA (layer F.Cu) (tedit 59946EFB)
-  (descr "Diode SMB Standard")
-  (tags "Diode SMB Standard")
   (attr smd)
   (fp_text reference REF** (at 0.5 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

@@ -8,10 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 71
+# Fab_YSize_mils: 94
+#
 # Verified: No
 # Finished: Yes
 
 (module LED-LITEON-LTST-0606-SMD (layer F.Cu) (tedit 599477DA)
+  (attr smd)
   (fp_text reference REF** (at 0.025 2.3 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -8,12 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 39
+# Fab_YSize_mils: 39
+#
 # Verified: Yes
 # Finished: Yes
 
 (module CONN-HEADER-STRAIGHT-P2.54MM-1x01 (layer F.Cu) (tedit 58FF6D5C)
-  (descr "Through hole pin header")
-  (tags "pin header")
+  (attr smd)
   (fp_text reference W2 (at 0 -2.3495) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -6,10 +6,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 754
+# Fab_YSize_mils: 152
+#
 # Verified: No
 # Finished: Yes
 
 (module CONN-HEADER-FH34SRJ-34S-0.5SH (layer F.Cu) (tedit 58425DB7)
+  (attr smd)
   (fp_text reference REF** (at -0.225 -0.325 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

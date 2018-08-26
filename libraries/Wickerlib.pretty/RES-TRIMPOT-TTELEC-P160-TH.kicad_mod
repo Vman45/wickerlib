@@ -6,12 +6,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 347
+# Fab_YSize_mils: 543
+#
 # Verified: Yes
 # Finished: Yes
 
 (module RES-TRIMPOT-TTELEC-P160-TH (layer F.Cu) (tedit 583B59C6)
-  (descr RES-TRIMPOT-TTELEC-P160-TH)
-  (tags "Rotary Pot Trimpot Variable Resistor")
+  (attr smd)
   (fp_text reference R10 (at 0 4.7 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

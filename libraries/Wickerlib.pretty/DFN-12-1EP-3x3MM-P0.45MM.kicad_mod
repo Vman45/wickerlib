@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 157
+# Fab_YSize_mils: 142
+#
 # Verified: No
 # Finished: Yes
 
 (module DFN-12-1EP-3x3MM-P0.45MM (layer F.Cu) (tedit 59946E95)
-  (descr "DD Package; 12-Lead Plastic DFN (3mm x 3mm) (see Linear Technology DFN_12_05-08-1725.pdf)")
-  (tags "DFN 0.45")
   (attr smd)
   (fp_text reference U4 (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

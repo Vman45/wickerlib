@@ -8,11 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 130
+# Fab_YSize_mils: 95
+#
 # Verified: Yes
 # Finished: Yes
 
 (module SOT-353 (layer F.Cu) (tedit 599480F2)
-  (descr SOT353)
   (attr smd)
   (fp_text reference U4 (at 0 0.2) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

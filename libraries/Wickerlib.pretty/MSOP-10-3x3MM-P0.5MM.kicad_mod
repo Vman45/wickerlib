@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 248
+# Fab_YSize_mils: 146
+#
 # Verified: No
 # Finished: Yes
 
 (module MSOP-10-3x3MM-P0.5MM (layer F.Cu) (tedit 598F427C)
-  (descr "10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
-  (tags "SSOP 0.5")
   (attr smd)
   (fp_text reference U5 (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

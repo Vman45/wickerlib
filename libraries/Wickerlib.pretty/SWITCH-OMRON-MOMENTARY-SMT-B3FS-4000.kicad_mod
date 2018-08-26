@@ -8,10 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 677
+# Fab_YSize_mils: 496
+#
 # Verified: No
 # Finished: Yes
 
 (module SWITCH-OMRON-MOMENTARY-SMT-B3FS-4000 (layer F.Cu) (tedit 599483E5)
+  (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

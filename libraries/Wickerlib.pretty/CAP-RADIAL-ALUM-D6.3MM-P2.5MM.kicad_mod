@@ -8,10 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 244
+# Fab_YSize_mils: 248
+#
 # Verified: Yes
 # Finished: Yes
 
 (module CAP-RADIAL-ALUM-D6.3MM-P2.5MM (layer F.Cu) (tedit 59937318)
+  (attr smd)
   (fp_text reference C2 (at 0 0) (layer F.Fab)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )

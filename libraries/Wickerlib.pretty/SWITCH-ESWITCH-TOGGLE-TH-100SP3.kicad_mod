@@ -6,12 +6,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 142
+# Fab_YSize_mils: 520
+#
 # Verified: No
 # Finished: Yes
 
 (module SWITCH-ESWITCH-TOGGLE-TH-100SP3 (layer F.Cu) (tedit 59948361)
-  (descr "Three-position through-hole board mount switch.")
-  (tags "ON-OFF-ON switch")
+  (attr smd)
   (fp_text reference REF** (at 0 4.7 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

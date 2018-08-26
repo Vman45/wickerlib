@@ -8,10 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 119
+# Fab_YSize_mils: 99
+#
 # Verified: No
 # Finished: Yes
 
 (module LED-KINGBRIGHT-APTB-0606-SMD (layer F.Cu) (tedit 599477AD)
+  (attr smd)
   (fp_text reference REF** (at 0 2 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

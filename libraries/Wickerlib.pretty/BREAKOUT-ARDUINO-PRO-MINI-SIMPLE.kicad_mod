@@ -6,6 +6,9 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 800
+# Fab_YSize_mils: 1300
+#
 # Verified: No
 # Finished: Yes
 

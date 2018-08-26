@@ -1,6 +1,19 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 0
+# Fab_YSize_mils: 0
+#
+# Verified: Yes
+# Finished: Yes
+
 (module HOLES-3.5x1.41-HOLES (layer F.Cu) (tedit 5B1D6CAE)
-  (descr http://www.kamami.pl/dl/wc1602a0.pdf)
-  (tags "LCD 16x2 Alphanumeric 16pin")
+  (attr virtual)
   (fp_text reference NONE (at -10.95 -17.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

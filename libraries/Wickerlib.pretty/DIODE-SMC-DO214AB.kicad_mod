@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 394
+# Fab_YSize_mils: 295
+#
 # Verified: No
 # Finished: Yes
 
 (module DIODE-SMC-DO214AB (layer F.Cu) (tedit 59946F06)
-  (descr "Diode SMC Standard")
-  (tags "Diode SMC Standard")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

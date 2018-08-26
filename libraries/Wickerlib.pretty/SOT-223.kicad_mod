@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 299
+# Fab_YSize_mils: 382
+#
 # Verified: No
 # Finished: Yes
 
 (module SOT-223 (layer F.Cu) (tedit 58157AA1)
-  (descr "module CMS SOT223 4 pins")
-  (tags "CMS SOT")
   (attr smd)
   (fp_text reference REF** (at 0 -0.762) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

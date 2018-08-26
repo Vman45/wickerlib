@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 283
+# Fab_YSize_mils: 283
+#
 # Verified: Yes
 # Finished: Yes
 
 (module RLC-2225-SMD (layer F.Cu) (tedit 581571D6)
-  (descr "Capacitor SMD RLC-2225-SMD, reflow soldering, AVX (see smccp.pdf)")
-  (tags "capacitor RLC-2225-SMD")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

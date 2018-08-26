@@ -8,10 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 2795
+# Fab_YSize_mils: 2100
+#
 # Verified: Yes
 # Finished: Yes
 
 (module ARDUINO-UNO-SHIELD-WITH-ICSP (layer F.Cu) (tedit 59936F0F)
+  (attr smd)
   (fp_text reference REF** (at 32.9 -27.8) (layer F.Fab)
     (effects (font (thickness 0.3048)))
   )

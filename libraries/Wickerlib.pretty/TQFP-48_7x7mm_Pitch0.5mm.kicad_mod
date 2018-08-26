@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 410
+# Fab_YSize_mils: 410
+#
 # Verified: Yes
 # Finished: Yes
 
 (module TQFP-48_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 59948898)
-  (descr "48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)")
-  (tags "QFP 0.5")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

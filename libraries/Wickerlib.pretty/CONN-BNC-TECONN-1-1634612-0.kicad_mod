@@ -6,12 +6,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 630
+# Fab_YSize_mils: 591
+#
 # Verified: No
 # Finished: Yes
 
 (module CONN-BNC-TECONN-1-1634612-0 (layer F.Cu) (tedit 59937500)
-  (descr "BNC Socket TYCO AMP")
-  (tags "BNC Socket TYCO AMP")
+  (attr smd)
   (fp_text reference BNC2 (at 0.3 -1.8 90) (layer F.Fab)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )

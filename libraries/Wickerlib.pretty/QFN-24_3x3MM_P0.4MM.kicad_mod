@@ -7,13 +7,14 @@
 #   https://www.gnu.org/licenses/gpl-3.0.html
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 157
+# Fab_YSize_mils: 157
 # 
 # Verified: No
 # Finished: Yes
 
 (module QFN-24_3x3MM_P0.4MM (layer F.Cu) (tedit 59947C63)
-  (descr "24-Lead Plastic QFN (3mm x 3mm); Pitch 0.4mm")
-  (tags "QFN 0.4")
   (attr smd)
   (fp_text reference U1 (at -0.0635 0.0635) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

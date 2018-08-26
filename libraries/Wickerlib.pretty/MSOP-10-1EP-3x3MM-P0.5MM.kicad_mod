@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 220
+# Fab_YSize_mils: 142
+#
 # Verified: Yes
 # Finished: Yes
 
 (module MSOP-10-1EP-3x3MM-P0.5MM (layer F.Cu) (tedit 599478E5)
-  (descr "MSE Package; 10-Lead Plastic MSOP, Exposed Die Pad (see Linear Technology 05081664_I_MSE.pdf)")
-  (tags "SSOP 0.5")
   (attr smd)
   (fp_text reference REF** (at 0 0.7) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

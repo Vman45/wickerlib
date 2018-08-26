@@ -6,12 +6,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 460
+# Fab_YSize_mils: 120
+#
 # Verified: Yes
 # Finished: Yes
 
 (module RES-CARBONFILM-7MM (layer F.Cu) (tedit 5860127D)
-  (descr "Resistor, Axial,  RM 7.62mm, 1/3W,")
-  (tags "Resistor Axial RM 7.62mm 1/3W R3")
+  (attr smd)
   (fp_text reference REF** (at 3.8 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

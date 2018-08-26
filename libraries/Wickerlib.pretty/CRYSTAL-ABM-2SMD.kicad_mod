@@ -6,10 +6,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 250
+# Fab_YSize_mils: 140
+#
 # Verified: No
 # Finished: Yes
 
 (module CRYSTAL-ABM-2SMD (layer F.Cu) (tedit 585EDA45)
+  (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

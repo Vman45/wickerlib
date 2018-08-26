@@ -1,6 +1,21 @@
+# KiCad Footprint 
+# Originally from the XESS Corp
+#   https://github.com/xesscorp/RPi_Hat_Template
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the MIT
+#   https://opensource.org/licenses/MIT
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 748
+# Fab_YSize_mils: 610
+#
+# Verified: Yes
+# Finished: Yes
+
 (module RELAY-SPDT-KLT1C12DC12 (layer F.Cu) (tedit 5B1E2451)
-  (descr "DC Barrel Jack")
-  (tags "Power Jack")
+  (attr smd)
   (fp_text reference K1 (at 8.6 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

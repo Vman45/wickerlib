@@ -8,12 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 840
+# Fab_YSize_mils: 260
+#
 # Verified: Yes
 # Finished: Yes
 
 (module CONN-MOLEX-KK100-1x08 (layer F.Cu) (tedit 57EC2693)
-  (descr "Through hole socket strip")
-  (tags "socket strip")
+  (attr smd)
   (fp_text reference J1 (at 9.144 0.127 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

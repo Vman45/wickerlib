@@ -8,12 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 1283
+# Fab_YSize_mils: 709
+#
 # Verified: No
 # Finished: Yes
 
 (module DB9-FEMALE-C (layer F.Cu) (tedit 58156AB3)
-  (descr "Connecteur DB9 femelle couche")
-  (tags "CONN DB9")
+  (attr smd)
   (fp_text reference REF** (at 1.27 -10.16) (layer F.Fab)
     (effects (font (size 2.032 2.032) (thickness 0.254)))
   )

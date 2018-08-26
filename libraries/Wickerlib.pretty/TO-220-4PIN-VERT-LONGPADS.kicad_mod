@@ -8,12 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 433
+# Fab_YSize_mils: 207
+#
 # Verified: Yes
 # Finished: Yes
 
 (module TO-220-4PIN-VERT-LONGPADS (layer F.Cu) (tedit 59948624)
-  (descr "TO-220, Neutral, Vertical, Large Pads,")
-  (tags "TO-220, Neutral, Vertical, Large Pads,")
+  (attr smd)
   (fp_text reference NCP7805-5V (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

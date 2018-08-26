@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 91
+# Fab_YSize_mils: 47
+#
 # Verified: Yes
 # Finished: Yes
 
 (module RLC-0402-SMD (layer F.Cu) (tedit 56BCBBF5)
-  (descr "Capacitor SMD RLC-0402-SMD, reflow soldering, AVX (see smccp.pdf)")
-  (tags "capacitor RLC-0402-SMD")
   (attr smd)
   (fp_text reference C13 (at 0 0) (layer F.Fab)
     (effects (font (size 0.8 0.8) (thickness 0.15)))

@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 189
+# Fab_YSize_mils: 87
+#
 # Verified: No
 # Finished: Yes
 
 (module DIODE-SOD-123 (layer F.Cu) (tedit 59947E46)
-  (descr SOD-123)
-  (tags SOD-123)
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

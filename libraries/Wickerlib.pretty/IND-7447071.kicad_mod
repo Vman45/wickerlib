@@ -8,12 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 890
+# Fab_YSize_mils: 118
+#
 # Verified: Yes
 # Finished: Yes
 
 (module IND-7447071 (layer F.Cu) (tedit 599473A5)
-  (descr "Resistor, Axial,  RM 7.62mm, 1/3W,")
-  (tags "Resistor Axial RM 7.62mm 1/3W R3")
+  (attr smd)
   (fp_text reference R12 (at 10.625 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

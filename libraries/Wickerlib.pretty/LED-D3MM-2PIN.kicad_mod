@@ -8,12 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 197
+# Fab_YSize_mils: 177
+#
 # Verified: Yes
 # Finished: Yes
 
 (module LED-D3MM-2PIN (layer F.Cu) (tedit 5994768E)
-  (descr "LED 3mm round vertical")
-  (tags "LED  3mm round vertical")
+  (attr smd)
   (fp_text reference REF** (at 1.4 0 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

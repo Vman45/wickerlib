@@ -8,12 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 423
+# Fab_YSize_mils: 502
+#
 # Verified: No
 # Finished: Yes
 
 (module DIP-8-W7.62MM-LONGPADS (layer F.Cu) (tedit 584B68C5)
-  (descr "8-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
-  (tags "dil dip 2.54 300")
+  (attr smd)
   (fp_text reference U4 (at 3.75 4 180) (layer F.Fab)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )

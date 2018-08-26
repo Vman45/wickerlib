@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 531
+# Fab_YSize_mils: 535
+#
 # Verified: Yes
 # Finished: Yes
 
 (module TQFP-44-10x10MM-P0.8MM (layer F.Cu) (tedit 59948836)
-  (descr "44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
-  (tags "QFP 0.8")
   (attr smd)
   (fp_text reference U4 (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

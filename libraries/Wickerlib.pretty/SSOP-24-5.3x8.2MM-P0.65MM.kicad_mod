@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 378
+# Fab_YSize_mils: 358
+#
 # Verified: No
 # Finished: Yes
 
 (module SSOP-24-5.3x8.2MM-P0.65MM (layer F.Cu) (tedit 59948270)
-  (descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
-  (tags "SSOP 0.65")
   (attr smd)
   (fp_text reference UA1 (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

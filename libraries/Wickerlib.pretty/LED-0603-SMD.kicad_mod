@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 150
+# Fab_YSize_mils: 60
+#
 # Verified: Yes
 # Finished: Yes
 
 (module LED-0603-SMD (layer F.Cu) (tedit 5972439A)
-  (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
-  (tags "capacitor 0603")
   (attr smd)
   (fp_text reference LED1 (at 0.09 0.04) (layer F.Fab)
     (effects (font (size 0.8 0.8) (thickness 0.15)))

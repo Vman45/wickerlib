@@ -8,13 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 244
+# Fab_YSize_mils: 146
+#
 # Verified: Yes
 # Finished: Yes
 
 
 (module RLC-1812-SMD (layer F.Cu) (tedit 579037B4)
-  (descr "Capacitor SMD RLC-1812-SMD, reflow soldering, AVX (see smccp.pdf)")
-  (tags "capacitor RLC-1812-SMD")
   (attr smd)
   (fp_text reference F1 (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

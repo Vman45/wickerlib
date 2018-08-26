@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 209
+# Fab_YSize_mils: 94
+#
 # Verified: Yes
 # Finished: Yes
 
 (module LED-1206-SMD (layer F.Cu) (tedit 5994758C)
-  (descr "LED 1206 smd package")
-  (tags "LED1206 SMD")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

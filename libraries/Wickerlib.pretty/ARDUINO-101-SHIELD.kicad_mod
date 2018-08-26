@@ -8,11 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 2795
+# Fab_YSize_mils: 2100
+#
 # Verified: Yes
 # Finished: Yes
 
 (module ARDUINO-101-SHIELD (layer F.Cu) (tedit 59936E75)
-  (descr none)
+  (attr smd)
   (fp_text reference U1 (at 33 -26.9) (layer F.Fab)
     (effects (font (thickness 0.3048)))
   )

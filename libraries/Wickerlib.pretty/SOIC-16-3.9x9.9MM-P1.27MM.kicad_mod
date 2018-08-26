@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 291
+# Fab_YSize_mils: 417
+#
 # Verified: No
 # Finished: Yes
 
 (module SOIC-16-3.9x9.9MM-P1.27MM (layer F.Cu) (tedit 59947F91)
-  (descr "16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
-  (tags "SOIC 1.27")
   (attr smd)
   (fp_text reference REF** (at -0.1 0.1) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))

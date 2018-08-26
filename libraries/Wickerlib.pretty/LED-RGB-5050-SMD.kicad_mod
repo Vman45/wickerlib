@@ -8,10 +8,14 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 300
+# Fab_YSize_mils: 235
+#
 # Verified: No
 # Finished: Yes
 
 (module LED-RGB-5050-SMD (layer F.Cu) (tedit 5994785F)
+  (attr smd)
   (fp_text reference LED1 (at 0.025 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

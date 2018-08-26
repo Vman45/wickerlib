@@ -1,6 +1,19 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 0
+# Fab_YSize_mils: 0
+#
+# Verified: Yes
+# Finished: Yes
+
 (module HOLE-UNPLATED-2.75MMP-RASPI (layer F.Cu) (tedit 5AF46C05)
-  (descr "Mounting hole, Befestigungsbohrung, 2,7mm, No Annular, Kein Restring,")
-  (tags "Mounting hole, Befestigungsbohrung, 2,7mm, No Annular, Kein Restring,")
+  (attr virtual)
   (fp_text reference "" (at 0 -4.0005) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

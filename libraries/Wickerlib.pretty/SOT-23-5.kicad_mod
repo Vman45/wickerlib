@@ -8,12 +8,13 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
+# Fab_XSize_mils: 157
+# Fab_YSize_mils: 126
+#
 # Verified: No
 # Finished: Yes
 
 (module SOT-23-5 (layer F.Cu) (tedit 58157B5A)
-  (descr "5-pin SOT23 package")
-  (tags SOT-23-5)
   (attr smd)
   (fp_text reference REF** (at 0 0.9 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
